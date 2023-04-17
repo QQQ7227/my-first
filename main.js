@@ -1,10 +1,10 @@
 
-console.log("Привет всем!");
-console.log(715);
+// console.log("Привет всем!");
+// console.log(715);
 
-mybirthDay = '05';
-console.log(mybirthDay);
-console.log('Добро' + 'пожаловать' + 'на курс' + 'Павел');
+// mybirthDay = '05';
+// console.log(mybirthDay);
+// console.log('Добро' + 'пожаловать' + 'на курс' + 'Павел');
 // alert('10.04.2023')
 // let a = Infinity
 // number
@@ -57,21 +57,115 @@ console.log('Добро' + 'пожаловать' + 'на курс' + 'Паве�
 // inp.value = ''
 // }
 
-document.getElementById('one').innerHTML = 'Привет всем.'
+// document.getElementById('one').innerHTML = 'Привет всем.'
 
-let myday = prompt('Число больше или меньше 100?')
-console.log(myday);
+// let myday = prompt('Число больше или меньше 100?')
+// console.log(myday);
 
-if(myday > 100){
-    console.log(100);
+// if(myday > 100){
+//     console.log(100);
+// }
+// else{
+//     document.getElementById('one').innerHTML = '100';
+// } 
+
+// let year = prompt('В каком году вышел ходячий замок?')
+// // не верная запись
+// if(year <2004){
+// console.log('Рано');
+// }
+// else if(year>2004){
+// console.log('Поздно');
+// }
+// else{
+// console.log('Верно');
+// }
+// // не совсем верная запись
+// if(year <2004){
+// console.log('Рано');
+// }
+// if(year>2004){
+// console.log('Поздно');
+// }
+// if(year ==2004){
+// console.log('Верно');
+// }
+
+
+// let day = prompt('Сколько днй в неделе?')
+// let week = (day == 7) ? 'Отлично' : 'Ты не умеешь считать'
+// // let Результат = Условие ? если True Первый вариант : иначе Второй вариант
+// // if(day== 7){
+// // week =true
+// // }
+// // else{
+// // week = false
+// // }
+// console.log(week);
+
+// ВОзведение в степень **
+
+// console.log(2**2);
+
+// Оператор остатка от деления %
+
+// console.log(10%2.5);
+
+//< > - оператор больше или меньше
+//>= <= - Больше или равно меньше или равно
+//== - Не строгое равно
+// === - CТрогое равно
+// = - оператор присваивания
+// != - не равно
+
+// ||
+// true || true = true
+// false || true = true
+// true || false = true
+// false || false = false
+
+// let a =4
+// let b = 10
+// if(a<5 || a>5){
+// console.log(b);
+// }
+ 
+
+// &&
+// true || true = true
+// false || true = false
+// true || false = false
+// false || false = false
+
+// let a = 5
+// let b = 10
+
+// if(a + b>15){
+// console.log('Да');
+// }
+// else if (a + b == 15){
+// console.log('Равны');
+// }
+// else{
+//     console.log('Нет');
+// }
+
+
+let a = 2;
+let b = 2;
+
+if(a === b){
+    console.log('Равны');
 }
 else{
-    document.getElementById('one').innerHTML = '100';
-}    
-  
+    console.log('Не равны');
+}
+
+let result = (a === b)
+    console.log(result);
+
 
     
-
 
 
 

@@ -240,9 +240,9 @@
 // }
 
 
-for(let i =50;i>24;i--){
-    console.log(i);
-}
+// for(let i =50;i>24;i--){
+//     console.log(i);
+// }
 
 
 // let i = 2500;
@@ -251,3 +251,74 @@ for(let i =50;i>24;i--){
 //   if(i % 2)
 //    console.log(i);
 // }
+
+
+// let a = 5;
+// switch(a){
+// case 12:
+// alert('Правильно');
+// break
+
+// case 5:
+// case 10:
+// alert(1)
+// break
+// alert(2)
+// break
+// default:
+// alert('результат кривой однознанчно')
+
+// }
+
+// let a = '1';
+// let b = 0;
+// switch(+a){
+// case b + 1:
+// console.log('Выполнится потому как значением +а, будет в точности равно и + 1');
+// break
+// default:
+// console.log('Это не выполнится ');
+// }
+// let c = + a
+// console.log();
+
+
+// let a = 2 + 2;
+
+// switch (a) {
+//   case 4:
+//     alert('Да');
+//     break;
+//   case 5:
+//     alert('Нет');
+//     break;
+//   default:
+//     alert("Не сработало");
+// }
+
+//     let a = 1-3;
+//     let b = 3-6;
+//     let c = 6-9;
+//     let d = 9-12;
+//     let = prompt('Какое число?')
+// switch (a|| b|| c|| d) {
+//   case a:
+//     alert('зима');
+//     break;
+//   case b:
+//     alert('весна');
+//     break;
+//   case c:
+//     alert('лето');
+//     break;
+//   case d:
+//     alert('осень');
+//     break;
+// }
+
+
+
+let= null
+let= 'Пока'
+let= 'Привет'
+alert(null ?? 'Пока' ?? 'Привет')

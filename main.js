@@ -368,3 +368,24 @@
 // let c = mlt('Добро пожаловать ', a )
 // console.log(c);
 
+    // const one = document.querySelector('.one')
+    // one.onclick = function (){  
+    // alert=2
+    // }
+
+    // document.button.innerHTML = (one.onclick= function(){alert=2})
+
+
+    // const one = document.querySelector('.one')
+    // one.onclick = function (){
+    // Element.style.widthHeight = '300px'
+    // }   
+
+    const one = document.querySelector('.one')
+    one.onclick = function (){
+
+
+
+
+    Mydiv1.classlist.remove('Mydiv1')
+    }

@@ -127,19 +127,27 @@
 
     // Домашняя работа: Задание 8.
 
-    // const one = document.querySelector('.one')
-    // one.onclick = function (){
-    // Element.style.widthHeight = '300px'
-    // }   
+    let button = document.querySelector(".button")
+    let element = document.querySelector(".element")
+    
+    button.onclick=function() {
+        element.style.width = "100px";
+        element.style.height = "200px";
+    }
+    
+    const button1 = document.querySelector(".button1")
+    const element1 = document.querySelector(".element1") 
 
-    // const one = document.querySelector('.one')
-    // one.onclick = function (){
-
-
-
-
-    // Mydiv1.classlist.remove('Mydiv1')
-    // }
+    button1.onclick=function() {
+        element1.classList.add("class1", "class2", "class3");
+        
+    }
+    
+    button1.onclick=function() {
+        element1.classList.add("class1", "class2", "class3");
+        element1.classList.remove("class1")
+        
+    }
 
 
     // Домашняя работа: Задание 9.
@@ -155,16 +163,16 @@
 
     // Домашняя работа: Задание 10.
 
-    fetch('https://api.openweathermap.org/data/2.5/weather?lat=57.15&lon=65.51&appid=7ac3da5e7f1876686f8c4dbe01b8d452')
-    .then(function(resp){return resp.json()})
-    .then(function(data){
-        document.querySelector('.wind').textContent = data.wind.speed
-        document.querySelector('.humidity').textContent = data.main.humidity
-        document.querySelector('.country').innerHTML = data.sys.country.
-        document.querySelector('.sunrise').textContent = data.sys.sunrise.
-        document.querySelector('.sunset').textContent = data.sys.sunset.
-        console.log(data);
-    })
+    // fetch('https://api.openweathermap.org/data/2.5/weather?lat=57.15&lon=65.51&appid=7ac3da5e7f1876686f8c4dbe01b8d452')
+    // .then(function(resp){return resp.json()})
+    // .then(function(data){
+    //     document.querySelector('.wind').textContent = data.wind.speed
+    //     document.querySelector('.humidity').textContent = data.main.humidity
+    //     document.querySelector('.country').textContent = data.sys.country.
+    //     document.querySelector('.sunrise').textContent = data.sys.sunrise.
+    //     document.querySelector('.sunset').textContent = data.sys.sunset.
+    //     console.log(data);
+    // })
 
 
     
